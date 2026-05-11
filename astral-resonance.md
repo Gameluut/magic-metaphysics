@@ -21,6 +21,6 @@ q = 3m+s
 ####
 Now we use the new `q` value to create a new y-axis. However we will also need a new x-axis that runs perpendicular to out `q` value. Let's call this new value `p`. However, the distance of `q` and `p` (`D = sqrt(q^2 + p^2)`) must equal `d` and thus we end up with the following calculation for `p`:
 ```
-r = 6ms - 5m^2 #this is a temporary var
-p = sgn(r) sqrt(|r|)
+x = 6ms - 5m^2 #this is a temporary var
+p = sgn(x) sqrt(|x|)
 ```
