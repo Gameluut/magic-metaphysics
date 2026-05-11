@@ -10,7 +10,7 @@ d = sqrt(4m^2 + s^2)
 k = atan2(2m,s)
 ```
 ### Resonance Coordinates
-The alignment does not create the resonance in a straight forward manner. Instead we will have to take into consideration how well different alignments interact with one the entrophic (positive/negative) elements
+The alignment does not create the resonance in a straight forward manner. Instead we will have to take into consideration how well different alignments interact with the entrophic (positive/negative) elements
 #### Interactions with the entrophic elements.
 Good alignments tend to interact much more agreeably with the positive element while evil alignments tend to interact much more agreeably with the negative element. However, the negative element shows a slight preference for lawful alignments while the positive element shows a slight preference for chaotic alignments. Using this we can create a formula to find an interaction quotient
 ```
