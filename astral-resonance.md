@@ -10,8 +10,10 @@ d(m,s) = sqrt(4m^2 + s^2)
 k(m,s) = atan2(2m,s)
 ```
 ### Interactions with the entrophic (positive/negative) elements.
-Good alignments tend to interact much more agreeably with the positive element while evil alignments tend to interact much more agreeably with the negative element. However, the negative element shows a slight preference for lawful alignments while the positive element shows a slight preference for chaotic alignments. Using this we can create an angle to figure out which entrophic element an alignment will better interact with.
+Good alignments tend to interact much more agreeably with the positive element while evil alignments tend to interact much more agreeably with the negative element. However, the negative element shows a slight preference for lawful alignments while the positive element shows a slight preference for chaotic alignments. Using this we can create a formula to find an interaction quotient
 ```
-q(m,s) = sqrt(9m^2 + s^2) sin(atan2(3m,-s))
+#+ value is better with the positive element
+#- value is better with the negative element
+q(m,s) = sqrt(9m^2 + s^2) sin(atan(3m/-s))
 ```
 ###
