@@ -13,6 +13,6 @@ k(m,s) = atan2(2m,s)
 Good alignments tend to interact much more agreeably with the positive element while evil alignments tend to interact much more agreeably with the negative element. However, the negative element shows a slight preference for lawful alignments while the positive element shows a slight preference for chaotic alignments. Using this we can create an angle to figure out which entrophic element an alignment will better interact with.
 ```
 #+ will interact better with the positive element, - will interact better with the negative element
-q(m,s) = atan(3m,-s)
+q(m,s) = atan2(3m,-s)
 ```
 ###
