@@ -8,7 +8,7 @@ Because of the design of the Astral plane, the 2d coridnate system of the astral
 # Magnitude
 d = |2m + s|
 # Direction
-k = atan2(2m,s)
+k = atan2()
 ```
 #### Resonance Coordinates
 The alignment does not create the resonance in a straight forward manner. Instead we will have to take into consideration how well different alignments interact with the entrophic (positive/negative) elements
