@@ -1,11 +1,11 @@
 # Variables
-The Astral Plane is like a coordinate plane for the different aignments where you have an axis for good/evil and another axis for law/chaos, thus we end up with two variables: m (morality for the good/evil axis and will act as the y axis) and s (structure for the law/chaos axis and will act as the x axis). For the sake of this formula let's give both of these numbers a range of `(-1,1)`
+The Astral Plane is like a coordinate plane for the different aignments where you have an axis for good/evil and another axis for law/chaos, thus we end up with two variables: m (morality for the good/evil axis and will act as the y axis) and s (structure for the law/chaos axis and will act as the x axis).
 
 ## Geometry of the Astral plane
-Because of the design of the Astral plane, the 2d coridnate system of the astral plane becomes warped when brought into a 3d space and the four corners move. We end up with a structure where LE `(1,-1)` and CG `(-1,1)` are closer to TN (0,0) than LG `(1,1)` and CE `(-1,-1)`. Thus we can make a formula to calculate the distance from TN as follows:
+Because of the design of the Astral plane, the 2d coridnate system of the astral plane becomes warped when brought into a 3d space and the four corners move. We end up with a structure where LE `(+,-)` and CG `(-,+)` are closer to TN (0,0) than LG `(+,+)` and CE `(-,-)`. Thus we can make a formula to calculate the distance from TN as follows:
 ```
 # Magnitude
-d(m,s) = sqrt(4m^2+s^2)/3
+d(m,s) = sqrt(4m^2+s^2)
 # Direction
 k(m,s) = atan2(2m,s)
 ```
