@@ -1,4 +1,4 @@
-#Astral Resonance
+# Astral Resonance
 ## Variables
 The Astral Plane is like a coordinate plane for the different aignments where you have an axis for good/evil and another axis for law/chaos, thus we end up with two variables: `m` (morality for the good/evil axis and will act as the y-axis) and `s` (structure for the law/chaos axis and will act as the x-axis).
 
