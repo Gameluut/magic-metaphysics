@@ -18,9 +18,10 @@ Good alignments tend to interact much more agreeably with the positive element w
 #- value is better with the negative element
 q = 3m+s
 ```
-####
+#### Maintaining distance in the new coordinate plane
 Now we use the new `q` value to create a new y-axis. However we will also need a new x-axis that runs perpendicular to out `q` value. Let's call this new value `p`. However, the distance of `q` and `p` (`D = sqrt(q^2 + p^2)`) must equal `d` and thus we end up with the following calculation for `p`:
 ```
 x = 6ms - 5m^2 #this is a temporary var
 p = sgn(x) sqrt(|x|)
 ```
+However, when `x < 0` we have a scenario in which the `D =/= d` this is reflective of how more evil and chaotic alignments tend to be unpredictable.
