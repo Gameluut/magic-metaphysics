@@ -6,7 +6,7 @@ The Astral Plane is like a coordinate plane for the different aignments where yo
 Because of the design of the Astral plane, the 2d coridnate system of the astral plane becomes warped when brought into a 3d space and the four corners move. We end up with a structure where LE `(+,-)` and CG `(-,+)` are closer to TN (0,0) than LG `(+,+)` and CE `(-,-)`. Thus we can make a formula to calculate the distance from TN as follows:
 ```
 # Magnitude
-d = |2m| + |s| #This is to intentionally create a diamond shape (NE, CN, LN, & NG are all slightly closer to TN than the other alignments)
+d = |2m + s| #This is to intentionally create a diamond shape (NE, CN, LN, & NG are all slightly closer to TN than the other alignments)
 # Direction
 k = atan2()
 ```
