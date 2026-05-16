@@ -1,4 +1,4 @@
-#Ethereal Programming
+# Ethereal Programming
 ## Variables `h,u,z`
 The Etherreal can be thought of as a sphere, where we have longitude, latitude, and radius. However the three listed variables (`h,u,z`) are not immediately related to the longitude, latitude, or the radius instead they are related to actual prime and entrophic elements themselves.
 
