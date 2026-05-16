@@ -13,5 +13,5 @@ Good alignments tend to interact much more agreeably with the positive element w
 q = 3m - s
 ```
 ##### Transfering Resonance onto a new "unwarped" plane
-Modifying the `d` formula so `d'= 2m + s` instead, we can use `q` and `d'` to find the new axis we will want to use by making `q = d'`resulting in the fromula `2m + s = 3m - s` which simplifies to `2s=m` giving us a new axis moving at approximately 26.57° (0.4636 rad) or `arctan(.5)`
+Modifying the `d` formula so `d'= 2m + s` instead, we can use `q` and `d'` to find the new axis we will want to use by making `q = d'`resulting in the fromula `2m + s = 3m - s` which simplifies to `2s=m` giving us a new axis moving at approximately 26.57° (0.4636 rad) or `arctan(.5)` above the `m` axis.
 ## Formula
