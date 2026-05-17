@@ -22,3 +22,4 @@ r = sqrt(r_p^2 + z^2)
 ```
 
 ## Formula
+E(t,h,u,z) = r sin(ot + l)
